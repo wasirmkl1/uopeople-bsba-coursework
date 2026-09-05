@@ -34,15 +34,23 @@ Term_01/
 - Within `Assignments/`, `Discussions/`, and `Exams/`, group files by unit as the term
   progresses so a given unit's work stays together.
 
-## Term 1 Courses (AY2026-T5)
+## Term 1 Courses (AY2026-T5) — Final Results
+
+| Course | Type | Credits | Instructor | Status | Grade |
+|---|---|---|---|---|---|
+| [UNIV 1002-01 — Online Education Strategies for Non-Native English Speakers](<Term_01/UNIV 1002-01 Online Education Strategies for Non-Native English Speakers - AY2026-T5>) | Required | 3 | Daniel Ndula Tatung | PASSED | 96 / A |
+| [BUS 1101-01 — Principles of Business Management](<Term_01/BUS 1101-01 Principles of Business Management - AY2026-T5>) | Elective | 3 | Jose Perez | PASSED | 98 / A+ |
+
+> **Term 1 is finished.** Final grades are posted (see table above).
+
+## Term 2 Courses (AY2027-T1) — In Progress
 
 | Course | Instructor |
 |---|---|
-| [UNIV 1002-01 — Online Education Strategies for Non-Native English Speakers](<Term_01/UNIV 1002-01 Online Education Strategies for Non-Native English Speakers - AY2026-T5>) | Daniel Ndula Tatung |
-| [BUS 1101-01 — Principles of Business Management](<Term_01/BUS 1101-01 Principles of Business Management - AY2026-T5>) | Jose Perez |
+| [ENGL 1102-01 — English Composition 2](<Term_02/ENGL 1102-01 English Composition 2 - AY2027-T1>) | Aparna Rajith (aparna.rajith@uopeople.edu) |
+| [BUS 1102-01 — Basic Accounting](<Term_02/BUS 1102-01 Basic Accounting - AY2027-T1>) | Richmond Agyarkoh (richmond.agyarkoh@uopeople.edu) |
 
-> **Term 1 is now finished.** Final grades are not yet available and will be added to this
-> repo once posted.
+> **Term 2, Unit 1 is currently in progress.**
 
 ## Discussion deadlines
 

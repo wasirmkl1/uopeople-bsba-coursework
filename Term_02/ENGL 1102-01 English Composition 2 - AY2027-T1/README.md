@@ -1,15 +1,13 @@
-# BUS 1101-01 Principles of Business Management (AY2026-T5)
+# ENGL 1102-01 English Composition 2 (AY2027-T1)
 
-- **Instructor:** Jose Perez
-- **Term:** Term 1, AY2026-T5
-- **Term start date:** June 18
+- **Instructor:** Aparna Rajith (aparna.rajith@uopeople.edu)
+- **Term:** Term 2, AY2027-T1
 - **Duration:** 9 units, 1 week per unit
-- **Final result:** PASSED — 98 / A+ (3 credits earned, Elective course)
 
 ## About this course
 
-Foundational course covering core business management principles and practices, as part
-of the BSBA program at the University of the People.
+Second course in the composition sequence, part of the BSBA program at the University of
+the People.
 
 ## Folder structure
 
@@ -30,6 +28,8 @@ find together.
 > as work with this course begins.
 
 ## Discussion deadlines
+
+Unless a specific unit's instructions say otherwise:
 
 - **Main/initial discussion post:** due Sunday.
 - **Peer replies:** due Wednesday.
