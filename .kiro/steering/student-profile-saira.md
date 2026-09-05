@@ -15,17 +15,27 @@ directory.
 - **School:** University of the People (UoPeople)
 - **Term 1 start date:** June 18
 - **Term structure:** Every term consists of 9 units; each unit is 1 week long.
-- **Current progress:** Term 1 finished (confirmed by student). Final grades not yet
-  available — update this section once grades are posted.
+- **Current progress:** Term 1 finished, final grades posted (see table below). Term 2
+  (AY2027-T1) has started and is currently on Unit 1.
 
-## Term 1 Courses
+## Term 1 Courses (AY2026-T5) — Final Results
+
+| Course | Type | Credits Earned | Instructor | Status | Grade |
+|---|---|---|---|---|---|
+| UNIV 1002-01 — Online Education Strategies for Non-Native English Speakers | Required | 3 | Daniel Ndula Tatung | PASSED | 96 / A |
+| BUS 1101-01 — Principles of Business Management | Elective | 3 | Jose Perez | PASSED | 98 / A+ |
+
+## Term 2 Courses (AY2027-T1) — In Progress
 
 | Course | Instructor |
 |---|---|
-| UNIV 1002-01 — Online Education Strategies for Non-Native English Speakers (AY2026-T5) | Daniel Ndula Tatung |
-| BUS 1101-01 — Principles of Business Management (AY2026-T5) | Jose Perez |
+| ENGL 1102-01 — English Composition 2 | Aparna Rajith (aparna.rajith@uopeople.edu) |
+| BUS 1102-01 — Basic Accounting | Richmond Agyarkoh (richmond.agyarkoh@uopeople.edu) |
 
-## Discussion Deadlines (applies to both courses unless a specific unit says otherwise)
+Term 2, Unit 1 is running now (as of this update). Update this table as new terms start,
+and update unit progress notes as units advance.
+
+## Discussion Deadlines (applies to all current courses unless a specific unit says otherwise)
 
 - **Main/initial discussion post:** due Sunday.
 - **Peer replies:** due Wednesday.

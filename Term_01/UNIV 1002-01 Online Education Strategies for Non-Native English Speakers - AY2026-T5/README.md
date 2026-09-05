@@ -4,6 +4,7 @@
 - **Term:** Term 1, AY2026-T5
 - **Term start date:** June 18
 - **Duration:** 9 units, 1 week per unit
+- **Final result:** PASSED — 96 / A (3 credits earned, Required course)
 
 ## About this course
 
