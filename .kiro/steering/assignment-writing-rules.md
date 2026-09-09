@@ -82,9 +82,25 @@ reply immediately once the student provides the peer's post.
     organization or channel.
   - Hanging indent (0.5") on every reference paragraph, double-spaced, no extra paragraph
     spacing.
-  - Reference links should be real, clickable hyperlinks in a `.docx` (verify via the
-    document's XML relationships, not just visually). Plain-text discussion posts should
-    still include the full, correct URL.
+  - **Every reference-list URL in a `.docx` must be a real, clickable hyperlink, not
+    plain text that merely looks like a URL.** When generating the file (e.g., with
+    `python-docx`), build each reference entry with an actual `w:hyperlink` element tied to
+    a relationship in `word/_rels/document.xml.rels` (`python-docx` does not create this
+    automatically from plain text — insert it explicitly via `part.relate_to(...)` and a
+    manually constructed `w:hyperlink` run, or equivalent). **Do this as a required step,
+    every time a `.docx` reference list is built — not only when the student asks about
+    it or after a mistake is caught.** Before presenting any `.docx` as finished, verify
+    programmatically that the number of hyperlink relationships in
+    `word/_rels/document.xml.rels` matches the number of reference-list URLs (open the
+    `.docx` as a zip and check `word/_rels/document.xml.rels` and the `<w:hyperlink>` count
+    in `word/document.xml` — do not just eyeball the rendered text, since plain text and a
+    real hyperlink can look identical in some viewers). Plain-text discussion posts (not
+    submitted as `.docx`) should still include the full, correct URL as text, since there is
+    no hyperlink mechanism to apply there.
+  - **Treat the full APA 7 checklist above as mandatory for every `.docx` generated, every
+    time** — re-run through italics, hanging indents, author-initial spacing, and the
+    hyperlink check above as a standard pre-submission pass, not as something to apply only
+    when a mistake has already been pointed out.
   - **Title page (APA 7, student paper format)** is expected for standalone written
     assignments submitted as a Word document unless the assignment's own instructions
     explicitly say otherwise — include one by default rather than waiting to be asked, with
@@ -196,7 +212,10 @@ it "final" or "ready," regardless of type.**
 1. Word count (body only, per that specific assignment's stated exclusions).
 2. All required vocabulary words (if any) present and used naturally in context.
 3. Every citation has exactly one matching reference and vice versa.
-4. Font, size, spacing match the assignment's stated formatting requirements.
+4. Font, size, spacing match the assignment's stated formatting requirements, and — for
+   every `.docx` file specifically — full APA 7 formatting per the Section 1 checklist,
+   including that every reference-list URL is a real clickable hyperlink (verified via the
+   `.docx` zip's `word/_rels/document.xml.rels` and `<w:hyperlink>` count, not by eye).
 5. No leftover fabricated resource names, unverified facts, or duplicated phrases — scan
    for repeated word sequences (n-grams) after any edit, not just once at the very end.
 6. Read the entire document fresh, not just the diff, since an edit made to fix one problem
