@@ -18,6 +18,15 @@ Each course gets its own verified answer bank at:
 Create this file the first time quiz questions come in for a course that doesn't have one
 yet, using the structure described below.
 
+Existing answer banks in this repo:
+
+- **ENGL 1102-01:** `Term_02/ENGL 1102-01 English Composition 2 - AY2027-T1/Exams/uopeople-verified-quiz-answers.md`
+  (Unit 1 finished. Note: this specific file's content was explicitly requested to be
+  copied into this repo from the household's other UoPeople repo, as a one-off exception to
+  the no-cross-referencing policy above — the user made that call directly. Don't treat this
+  as a standing precedent for copying other content between the two repos without a similarly
+  explicit request.)
+
 ## Answering process — sourcing order for every new question
 
 1. **That course's own `uopeople-verified-quiz-answers.md` file**, if one already exists —
