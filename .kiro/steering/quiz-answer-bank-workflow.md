@@ -5,9 +5,15 @@ inclusion: always
 # Quiz Answer Bank Workflow
 
 When the user sends quiz/exam questions to be answered for any course in this repo, follow
-this process. (This mirrors the workflow used in the household's other UoPeople repo, but
-per this repo's own cross-student policy above, no actual question/answer content is shared
-or copied between repos — only the process below.)
+this process. (This mirrors the workflow used in the household's other UoPeople repo.)
+
+**Quiz answer bank content may be freely shared/mirrored between this repo and the
+household's other UoPeople repo (`uopeople-bscs-coursework`)** — this is an explicit
+exception to the assignment/discussion no-cross-referencing policy elsewhere in this repo's
+steering (see `assignment-writing-rules.md` and `student-profile-saira.md`), which exists for
+academic-integrity reasons around graded original writing. Quiz questions and their verified
+answers are reference material, not graded submissions, so no such concern applies here — the
+user has confirmed sharing this content between repos is fine, with no restrictions.
 
 ## Where the answer bank lives
 
@@ -21,11 +27,8 @@ yet, using the structure described below.
 Existing answer banks in this repo:
 
 - **ENGL 1102-01:** `Term_02/ENGL 1102-01 English Composition 2 - AY2027-T1/Exams/uopeople-verified-quiz-answers.md`
-  (Unit 1 finished. Note: this specific file's content was explicitly requested to be
-  copied into this repo from the household's other UoPeople repo, as a one-off exception to
-  the no-cross-referencing policy above — the user made that call directly. Don't treat this
-  as a standing precedent for copying other content between the two repos without a similarly
-  explicit request.)
+  (Units 1–3 finished; content has been mirrored to/from the household's other UoPeople repo
+  where the same course is shared.)
 
 ## Answering process — sourcing order for every new question
 
