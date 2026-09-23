@@ -207,6 +207,17 @@ reply immediately once the student provides the peer's post.
   concepts more advanced than what an intro-level student would plausibly know or that the
   course readings have actually covered, unless the student specifically asks for it. When
   unsure whether something is too advanced, ask.
+- **Real instructor feedback, ENGL 1102-01 Unit 2 Discussion (scored 100/100, but with a
+  refinement note):** even a fully-scoring narrative/argumentative discussion post can still
+  draw a tone note. The instructor's refinement comment specifically asked for longer
+  sentences to be tightened and for the language to stay "more consistently academic" in
+  places where it turned highly conversational. Treat this as a standing check for ENGL
+  discussion posts specifically (and reasonably for other courses' discussion posts too):
+  before presenting a draft, scan for casual rhetorical asides and long/run-on sentences
+  that could be split or trimmed for a more consistently academic register, even when the
+  overall voice is otherwise meant to sound like a genuine student (per the natural-voice
+  rule above — this is about tightening register, not eliminating personality or
+  contractions).
 
 ## 3. Word Count Discipline
 **Scope: universal — applies to every written assignment and discussion post with a stated
