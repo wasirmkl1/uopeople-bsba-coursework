@@ -107,3 +107,54 @@ file as they come up in future units/exams.
 **Answer: To record transactions in chronological order** (The journal is the book of original entry, capturing transactions as they occur before posting to the ledger.)
 
 ---
+
+
+## Unit 3
+
+**1. How is Cost of Goods Sold classified in financial statements?**
+- Liability
+- Revenue
+- Expense
+- Asset
+
+**Answer: Expense** (CONFIRMED CORRECT) (COGS is reported on the income statement as an expense matched against sales revenue to determine gross profit — OpenStax *Principles of Accounting, Vol. 1*, Ch. 6.6.)
+
+---
+
+**2. What is included in the Merchandise Income Statement that is not typically found in a service company's Income Statement?**
+- Cost of Goods Sold
+- Operating Expenses
+- Net Income
+- Depreciation
+
+**Answer: Cost of Goods Sold** (CONFIRMED CORRECT) (Ch. 6.1 contrasts merchandising vs. service companies — merchandisers sell physical goods, so their income statement includes COGS and a gross profit line that a service company's does not.)
+
+---
+
+**3. What type of account is Inventory classified as in the Balance Sheet?**
+- Liability
+- Equity
+- Current Asset
+- Long-term Asset
+
+**Answer: Current Asset** (CONFIRMED CORRECT) (Inventory is expected to be sold within one operating cycle/year, so it is classified as a current asset.)
+
+---
+
+**4. How is the Ending Inventory determined in a periodic inventory system?**
+- By calculating the average cost of goods
+- By using perpetual inventory records
+- Through a physical count at the end of the period
+- By subtracting Cost of Goods Sold from total purchases
+
+**Answer: Through a physical count at the end of the period** (CONFIRMED CORRECT) (Per Ch. 6.2, the periodic system does not track inventory continuously — it relies on a physical count at period-end to determine ending inventory and, from there, COGS.)
+
+---
+
+**5. Closing entries are made to close out temporary accounts and transfer their balances to permanent accounts.**
+- True
+- False
+
+**Answer: True** (CONFIRMED CORRECT) (Ch. 5.1: closing entries zero out temporary accounts — revenues, expenses, dividends — and roll their net effect into the permanent equity account, Retained Earnings.)
+
+---
