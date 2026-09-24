@@ -539,3 +539,72 @@ true-false questions to be answered.**
   frequently-confused answer.
 - If other courses accumulate their own exam question banks later, follow the same pattern:
   one `Question_Bank.md` inside that course's own `Exams/` folder.
+
+
+## 17. Never Re-Save a Provided `.xlsx` Template With openpyxl — Edit the Zip Surgically
+**Scope: universal for every assignment where the course provides an Excel template
+(`.xlsx`) that must be filled in and submitted.**
+
+**Confirmed real, repeated problem in this repo (BUS 1102-01 Units 2 and 3):** opening a
+course-provided `.xlsx` template with `openpyxl.load_workbook(...)` and calling `wb.save(...)`
+produces a file that Excel opens with *"We found a problem with some content in this
+workbook"* and offers to repair. This happened twice before the cause was tracked down. Do
+not just rebuild and hope — the rebuild will fail the same way.
+
+**Why it happens:** openpyxl does not round-trip an `.xlsx` package. It re-generates the
+whole zip from its own in-memory model and silently drops parts it does not understand. On
+the BUS 1102 Unit 3 template it dropped **18 of 31 parts**, including:
+
+- `customXml/item1–3.xml` + their `itemProps` and `_rels` (these carried Microsoft Purview /
+  MSIP sensitivity-label state, which the surviving `docProps/custom.xml` still referenced)
+- `xl/printerSettings/printerSettings1–4.bin` and all four `xl/worksheets/_rels/sheetN.xml.rels`
+- `xl/sharedStrings.xml` (rewritten as inline strings instead)
+
+The leftover MSIP `MSIP_Label_*` properties in `docProps/custom.xml` pointing at now-missing
+customXml parts is the most likely specific trigger, but **do not bother diagnosing which
+dropped part broke it** — preserve all of them and the whole class of failure disappears.
+
+**The required approach — surgical zip editing:**
+
+1. Open the template with `zipfile.ZipFile(template)`.
+2. Read only the worksheet XML parts you need to change (e.g.
+   `xl/worksheets/sheet2.xml`) as decoded UTF-8 text.
+3. Set values by **replacing the existing `<c r="REF">` element in place** with a regex like
+   `r'<c r="REF"((?:\s[^>/]*)?)(?:/>|>.*?</c>)'`, handling both the self-closing and
+   container forms.
+4. Write the output with `zipfile.ZipFile(dst, 'w')`, iterating `zin.infolist()` and copying
+   **every** part through byte-for-byte except the specific sheet XML you modified.
+
+**Key advantages, and why this is not more work:** these templates already pre-style every
+cell where a value is meant to go, so preserving each cell's existing `s` (style index)
+attribute gives correct fonts/borders for free. Do not write to `xl/styles.xml` — instead
+reuse an existing style index from elsewhere in the same workbook, since `cellXfs` indices
+are workbook-global and valid on any sheet. On the BUS 1102 Unit 3 template the useful ones
+were `s="4"` (regular, `#,##0`) and `s="17"` (bold, `#,##0`); find the equivalents per
+template by grepping `xl/styles.xml` for `numFmtId="3"` and resolving each `fontId` against
+the `<fonts>` list to see which are bold.
+
+**Writing text into a cell:** the template's existing string cells use `t="s"` with a
+`sharedStrings.xml` index. Since `sharedStrings.xml` is being preserved byte-for-byte, do
+**not** try to append to it — write new or changed strings as inline strings instead:
+`<c r="B5" s="1" t="inlineStr"><is><t>Text</t></is></c>`. This is valid `.xlsx` and mixes
+safely with shared strings in the same sheet.
+
+**Mandatory verification before presenting any filled-in `.xlsx`** (there is no Excel or
+LibreOffice in this sandbox, so the repair prompt cannot be reproduced locally — these
+checks are the substitute, and they must all be run and reported):
+
+1. Part count and names match the template exactly — print `MISSING` and `EXTRA` sets.
+2. Every part *not* deliberately modified is **byte-identical** to the template.
+3. Every `.xml`/`.rels` part parses (`lxml.etree.fromstring`) without error.
+4. Re-open with `openpyxl` and print every non-empty cell with its value, number format, and
+   bold flag, to confirm values and styling landed where intended.
+5. Assert the accounting ties programmatically, not by eye — e.g. revenue − expenses ==
+   net income, beginning RE + NI − dividends == ending RE, net income carries from the
+   income statement into the retained-earnings statement, ending RE carries into the balance
+   sheet, and **total assets == total liabilities + equity**.
+
+**Also check the template's own labels against the actual data** rather than filling it in
+blindly. The BUS 1102 Unit 3 balance-sheet template shipped a hardcoded "Equipment" row
+label while the trial balance's account was "Furniture" — the label was corrected to match
+the trial balance. Flag this kind of template/data mismatch to the student when it is found.
