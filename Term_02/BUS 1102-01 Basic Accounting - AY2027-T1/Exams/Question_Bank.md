@@ -158,3 +158,55 @@ file as they come up in future units/exams.
 **Answer: True** (CONFIRMED CORRECT) (Ch. 5.1: closing entries zero out temporary accounts — revenues, expenses, dividends — and roll their net effect into the permanent equity account, Retained Earnings.)
 
 ---
+
+## Unit 4 (Self-Quiz)
+
+**1. Which type of fraud involves falsifying expense reports for personal gain?**
+- Bribery
+- Financial Statement Fraud
+- Payroll Fraud
+- Expense Reimbursement Fraud
+
+**Answer: Expense Reimbursement Fraud** (CONFIRMED CORRECT) (Submitting fake or inflated expense claims — meals, travel, mileage — to be reimbursed for costs never incurred. Payroll fraud involves wages/ghost employees; financial statement fraud involves misstating reported results.)
+
+---
+
+**2. How do internal controls affect the prevention of errors in financial reporting?**
+- They ensure all employees are trained
+- They increase manual transaction recording
+- They reduce the risk of errors and misstatements
+- They decrease the need for special journals
+
+**Answer: They reduce the risk of errors and misstatements** (CONFIRMED CORRECT) (Approvals, reconciliations, segregation of duties, and documentation exist to keep records accurate and to prevent or catch errors and fraud.)
+
+---
+
+**3. How do special journals differ from general journals?**
+- Special journals summarize similar types of transactions
+- Special journals only record cash transactions
+- Special journals are used for daily transactions
+- Special journals are not part of the accounting cycle
+
+**Answer: Special journals summarize similar types of transactions** (CONFIRMED CORRECT) (Each special journal groups one recurring transaction type — sales, purchases, cash receipts, cash disbursements. Only the cash journals are limited to cash.)
+
+---
+
+**4. Which of the following is an example of a preventive control in an organization?**
+- Reconciliation of bank statements
+- Segregation of duties
+- Physical inventory counts
+- Independent internal verification
+
+**Answer: Segregation of duties** (CONFIRMED CORRECT) (Preventive controls stop problems before they occur; splitting authorization, recording, and custody of assets keeps one person from both committing and concealing fraud. Reconciliations, physical counts, and independent verification are detective controls.)
+
+---
+
+**5. What type of special journal is used to record credit sales?**
+- Sales Journal
+- General Journal
+- Purchases Journal
+- Cash Receipts Journal
+
+**Answer: Sales Journal** (CONFIRMED CORRECT) (Credit sales: debit Accounts Receivable, credit Sales. Cash sales go in the Cash Receipts Journal; credit purchases go in the Purchases Journal.)
+
+---
