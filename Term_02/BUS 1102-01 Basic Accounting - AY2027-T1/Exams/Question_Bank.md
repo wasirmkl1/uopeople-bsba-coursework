@@ -210,3 +210,203 @@ file as they come up in future units/exams.
 **Answer: Sales Journal** (CONFIRMED CORRECT) (Credit sales: debit Accounts Receivable, credit Sales. Cash sales go in the Cash Receipts Journal; credit purchases go in the Purchases Journal.)
 
 ---
+
+## Unit 4 (Graded Quiz) — 20/20 confirmed correct
+
+**1. Which type of fraud involves unauthorized payments made by an employee for personal gain?**
+- Asset Misappropriation
+- Payroll Fraud
+- Financial Statement Fraud
+- Bribery
+
+**Answer: Asset Misappropriation** (CONFIRMED CORRECT) (Broad category for employees stealing/misusing company resources. Trap: Payroll Fraud is a subtype and needs wage/ghost-employee wording. Same three distractors as the Unit 4 Self-Quiz Q1; only the answer slot changed.)
+
+---
+
+**2. Which of the following is typically recorded in a cash receipts journal?**
+- Credit sales of merchandise
+- Employee payroll
+- Cash payments for expenses
+- Cash received from customers
+
+**Answer: Cash received from customers** (CONFIRMED CORRECT) (Cash receipts journal = all cash coming in. Credit sales → Sales Journal; payroll and expense payments → Cash Disbursements Journal.)
+
+---
+
+**3. How does segregation of duties contribute to fraud prevention?**
+- By increasing the workload on employees
+- By reducing the risk of a single employee committing fraud
+- By eliminating the need for financial audits
+- By centralizing control within the organization
+
+**Answer: By reducing the risk of a single employee committing fraud** (CONFIRMED CORRECT) (Separating authorization, recording, and custody means one person can't both commit and conceal fraud.)
+
+---
+
+**4. Which of the following is an example of a preventive control in an organization?**
+- Segregation of duties
+- Independent internal verification
+- Physical inventory counts
+- Reconciliation of bank statements
+
+**Answer: Segregation of duties** (CONFIRMED CORRECT) (Same as Unit 4 Self-Quiz Q4, reordered options. The others are detective controls.)
+
+---
+
+**5. How does an audit trail contribute to internal controls?**
+- It replaces the general ledger
+- It reduces the number of accounting staff needed
+- It tracks transactions to detect and prevent fraud
+- It eliminates the need for special journals
+
+**Answer: It tracks transactions to detect and prevent fraud** (CONFIRMED CORRECT) (Traceable path from source document → journal → ledger → statements.)
+
+---
+
+**6. Which account is used to summarize the revenues and expenses for a period before they are closed to Retained Earnings?**
+- Profit and Loss Summary
+- Revenue Summary
+- Expense Summary
+- Income Summary
+
+**Answer: Income Summary** (CONFIRMED CORRECT) (Temporary clearing account used in the closing process.)
+
+---
+
+**7. How are long-term assets reported on the Balance Sheet?**
+- At their replacement cost
+- At their market value
+- At their original cost
+- At their book value
+
+**Answer: At their book value** (CONFIRMED CORRECT) (Book value = original cost minus accumulated depreciation. Trap: "original cost" is the starting point, not the net amount reported.)
+
+---
+
+**8. How are closing entries related to temporary accounts?**
+- They carry temporary accounts into the next period
+- They close temporary accounts to Retained Earnings
+- They convert temporary accounts to permanent accounts
+- They are used to adjust temporary accounts
+
+**Answer: They close temporary accounts to Retained Earnings** (CONFIRMED CORRECT) (Revenues, expenses, and dividends are zeroed out into Retained Earnings. See Unit 3 Q5.)
+
+---
+
+**9. How is Cost of Goods Sold classified in financial statements?**
+- Expense
+- Asset
+- Liability
+- Revenue
+
+**Answer: Expense** (CONFIRMED CORRECT) (Same as Unit 3 Q1, reordered options.)
+
+---
+
+**10. What does the Gross Profit represent in a merchandising company's Income Statement?**
+- Sales Revenue minus Operating Expenses
+- Sales Revenue minus Cost of Goods Sold
+- Total Revenue minus Total Expenses
+- Net Income minus Dividends
+
+**Answer: Sales Revenue minus Cost of Goods Sold** (CONFIRMED CORRECT) (Total Revenue minus Total Expenses is net income, not gross profit.)
+
+---
+
+**11. When a company pays off a supplier for goods previously purchased on credit, which accounts are affected?**
+- Equipment and Cash
+- Accounts Receivable and Cash
+- Accounts Receivable and Accounts Payable
+- Cash and Accounts Payable
+
+**Answer: Cash and Accounts Payable** (CONFIRMED CORRECT) (Dr Accounts Payable, Cr Cash: both an asset and a liability go down. See Unit 2 Q2.)
+
+---
+
+**12. The entry to record the depreciation expense for a piece of equipment involves a debit to ______ and a credit to Accumulated Depreciation.**
+- Equipment
+- Accounts Payable
+- Cash
+- Depreciation Expense
+
+**Answer: Depreciation Expense** (CONFIRMED CORRECT) (Standard adjusting entry. The Equipment account itself stays at cost.)
+
+---
+
+**13. Which step in the accounting cycle involves recording all transactions?**
+- Closing
+- Adjusting
+- Journalizing
+- Posting
+
+**Answer: Journalizing** (CONFIRMED CORRECT) (The journal is the book of original entry. Posting moves journal entries to the ledger. See Unit 2 Q5.)
+
+---
+
+**14. If a company receives cash from a customer for services rendered, which account increases?**
+- Cash
+- Accounts Payable
+- Accounts Receivable
+- Service Revenue
+
+**Answer: Cash** (CONFIRMED CORRECT) (Cash increases every time. Trap: Service Revenue increases only if the service is earned at the same time, and the question doesn't say it was.)
+
+---
+
+**15. In double-entry accounting, each transaction affects at least __________ accounts.**
+- Four
+- One
+- Two
+- Three
+
+**Answer: Two** (CONFIRMED CORRECT) (Every transaction has at least one debit and one credit.)
+
+---
+
+**16. __________ assets include cash and accounts receivable.**
+- Long-term
+- Fixed
+- Non-current
+- Current
+
+**Answer: Current** (CONFIRMED CORRECT) (Cash, or items converted to cash within one year.)
+
+---
+
+**17. True or False: Managers use accounting information mainly for external reporting purposes.**
+- False
+- True
+
+**Answer: False** (CONFIRMED CORRECT) (Same as Unit 1 Q1. Managers use it internally for planning, control, and decisions.)
+
+---
+
+**18. How does accounting help businesses?**
+- By developing new products
+- By providing insights into financial performance
+- By creating marketing strategies
+- By predicting future sales
+
+**Answer: By providing insights into financial performance** (CONFIRMED CORRECT) (Trap: "predicting future sales" is forecasting/budgeting, not what accounting itself does.)
+
+---
+
+**19. __________ are assets that are expected to be converted into cash or consumed within one year.**
+- Fixed assets
+- Non-current assets
+- Current assets
+- Intangible assets
+
+**Answer: Current assets** (CONFIRMED CORRECT) (Definition of a current asset. See Unit 3 Q3.)
+
+---
+
+**20. How does accounting benefit managers in an organization?**
+- By enhancing product quality
+- By providing financial data for planning and control
+- By reducing marketing costs
+- By increasing employee satisfaction
+
+**Answer: By providing financial data for planning and control** (CONFIRMED CORRECT) (Same as Unit 1 Q4.)
+
+---
